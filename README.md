@@ -40,5 +40,7 @@ Import the provided SQL script to create the required tables and schema.
 Start the backend server and frontend application separately.
 
 5. Usage
+
 As an administrator, log in to the admin panel to manage student records.
+
 As a student, log in to view your details securely.
