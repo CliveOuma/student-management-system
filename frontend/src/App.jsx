@@ -2,7 +2,6 @@ import React from 'react';
 import Login from './Components/Login';
 import Logout from './Components/Logout';
 import StudentLogin from './Components/StudentLogin';
-import Register from './Components/Register';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Dashboard from './Components/Dashboard';
 import Start from './Components/Start'
@@ -36,7 +35,6 @@ function App() {
       <Route path='/dashboard/edit_student/:id'element={<EditStudent />}></Route>
       </Route>
       <Route path='/Login'element={<Login />}></Route>
-      <Route path='/Register'element={<Register />}></Route>
     </Routes>
     </Router>
   )
